@@ -5,7 +5,7 @@ An AI-powered basketball shooting form analyzer that uses computer vision to pro
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🎯 Overview
+## Overview
 
 This application analyzes basketball shooting form by detecting body pose and calculating the release angle at the elbow. Built with MediaPipe and Gradio, it provides instant visual feedback and actionable recommendations for improving your shot.
 
@@ -17,7 +17,7 @@ This application analyzes basketball shooting form by detecting body pose and ca
 - **Detailed Reports**: Provides comprehensive analysis with specific recommendations
 - **Easy-to-Use Interface**: Simple web UI built with Gradio - no technical knowledge required
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -45,7 +45,7 @@ python app.py
 
 The application will launch in your web browser at `http://localhost:7860`
 
-## 📖 How to Use
+## How to Use
 
 1. **Record a video** of a basketball shot:
    - Ensure the shooter is clearly visible
@@ -82,7 +82,7 @@ The **elbow angle at release** is one of the most critical aspects of shooting f
 3. **Angle Calculation**: Computes elbow angle using shoulder, elbow, and wrist positions
 4. **Feedback Generation**: Compares angle to optimal ranges and provides recommendations
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Architecture
 
@@ -105,7 +105,7 @@ Video Input → MediaPipe Pose Detection → Angle Calculation → Analysis Repo
 - Accuracy: Depends on video quality and lighting
 - Supported formats: MP4, AVI, MOV, and most common video formats
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 basketball-shot-analyzer/
@@ -115,7 +115,7 @@ basketball-shot-analyzer/
 └── examples/             # Sample videos (optional)
 ```
 
-## 🛠️ Customization
+## Customization
 
 ### Analyzing Left-Handed Shooters
 
@@ -137,7 +137,7 @@ if 90 <= elbow_angle <= 120:  # Change these values
     feedback = "✅ GOOD: Release angle is optimal!"
 ```
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - [ ] Left-handed shooter support toggle
 - [ ] Follow-through analysis (wrist snap angle)
@@ -149,7 +149,7 @@ if 90 <= elbow_angle <= 120:  # Change these values
 - [ ] Mobile app version
 - [ ] Comparison with professional shooter form
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Areas for improvement:
 
@@ -158,7 +158,7 @@ Contributions are welcome! Areas for improvement:
 3. Performance optimizations
 4. Support for different sports (football, volleyball, etc.)
 
-## 📝 Known Limitations
+## Known Limitations
 
 - Requires clear visibility of the shooter
 - Best results with side-angle videos
@@ -166,13 +166,13 @@ Contributions are welcome! Areas for improvement:
 - Does not account for shot result (make/miss)
 - Single camera angle limits 3D analysis
 
-## 📚 Resources & References
+## Resources & References
 
 - [MediaPipe Pose Documentation](https://google.github.io/mediapipe/solutions/pose.html)
 - [Basketball Shooting Form Guide](https://www.breakthroughbasketball.com/fundamentals/shooting.html)
 - [Optimal Release Angles Study](https://www.researchgate.net/publication/biomechanics-basketball-shooting)
 
-## 👤 Author
+## Author
 
 Created by [Your Name] as a portfolio project demonstrating:
 - Computer Vision / Machine Learning
@@ -181,11 +181,11 @@ Created by [Your Name] as a portfolio project demonstrating:
 - UI/UX Design
 - Sports Analytics
 
-## 📄 License
+## License
 
 MIT License - feel free to use this project for learning and personal use.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Google MediaPipe team for the pose detection model
 - Gradio team for the excellent UI framework
