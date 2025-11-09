@@ -1,6 +1,6 @@
 # Basketball Shot Analyzer - Project Summary
 
-## 🎉 What We Built
+## What We Built
 
 A **fully functional basketball shooting form analyzer** using:
 - **Gradio** for the web interface
@@ -8,7 +8,7 @@ A **fully functional basketball shooting form analyzer** using:
 - **OpenCV** for video processing
 - **Python** for the backend logic
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 basketball-shot-analyzer/
@@ -20,17 +20,17 @@ basketball-shot-analyzer/
 └── .gitignore                 # Git ignore rules
 ```
 
-## ✅ What's Working
+## What's Working
 
-1. ✅ **Video Upload Interface** - Easy drag-and-drop
-2. ✅ **Pose Detection** - MediaPipe tracking 33 body points
-3. ✅ **Release Angle Analysis** - Calculates elbow angle (90-120° optimal)
-4. ✅ **Visual Feedback** - Skeleton overlay on video
-5. ✅ **Detailed Reports** - Specific recommendations for improvement
-6. ✅ **Web Interface** - Clean, professional Gradio UI
-7. ✅ **Portfolio-Ready** - Complete documentation and tests
+1.  **Video Upload Interface** - Easy drag-and-drop
+2.  **Pose Detection** - MediaPipe tracking 33 body points
+3.  **Release Angle Analysis** - Calculates elbow angle (90-120° optimal)
+4.  **Visual Feedback** - Skeleton overlay on video
+5.  **Detailed Reports** - Specific recommendations for improvement
+6.  **Web Interface** - Clean, professional Gradio UI
+7.  **Portfolio-Ready** - Complete documentation and tests
 
-## 🚀 How to Use It
+## How to Use It
 
 ### Immediate Steps:
 
@@ -44,7 +44,7 @@ basketball-shot-analyzer/
 4. **Open your browser** to http://localhost:7860
 5. **Upload a basketball shooting video** and click analyze!
 
-## 📊 What It Analyzes
+## What It Analyzes
 
 ### Current Feature: Release Angle
 - Tracks the shooter's elbow angle at the release point
@@ -57,24 +57,24 @@ basketball-shot-analyzer/
 3. Calculates angle between shoulder-elbow-wrist
 4. Generates feedback based on shooting biomechanics
 
-## 💼 Portfolio Value
+## Portfolio Value
 
 This project demonstrates:
 
 ### Technical Skills:
-- ✅ **Computer Vision** - Pose estimation and tracking
-- ✅ **Machine Learning** - Using pre-trained models effectively
-- ✅ **Video Processing** - Frame-by-frame analysis
-- ✅ **Web Development** - Interactive UI with Gradio
-- ✅ **Python** - Clean, well-documented code
+-  **Computer Vision** - Pose estimation and tracking
+-  **Machine Learning** - Using pre-trained models effectively
+-  **Video Processing** - Frame-by-frame analysis
+-  **Web Development** - Interactive UI with Gradio
+-  **Python** - Clean, well-documented code
 
 ### Soft Skills:
-- ✅ **Problem Solving** - Practical sports analytics application
-- ✅ **Documentation** - Comprehensive README and guides
-- ✅ **User Experience** - Intuitive interface design
-- ✅ **Testing** - Installation verification scripts
+-  **Problem Solving** - Practical sports analytics application
+-  **Documentation** - Comprehensive README and guides
+-  **User Experience** - Intuitive interface design
+-  **Testing** - Installation verification scripts
 
-## 📝 Resume Bullet Points
+## Resume Bullet Points
 
 You can use these on your resume:
 
@@ -104,7 +104,7 @@ When discussing this project:
 5. **Future Improvements:**
    "I'd add multiple angle analysis, shot tracking over time, and real-time camera input. Could also extend to other sports like football or volleyball."
 
-## 📈 Next Steps for Enhancement
+## Next Steps for Enhancement
 
 ### Quick Wins (1-2 weeks each):
 1. **Left-handed toggle** - Simple modification to support lefties
@@ -118,7 +118,7 @@ When discussing this project:
 3. **Multi-angle analysis** - Combine front + side views
 4. **ML model training** - Custom model for better accuracy
 
-## 🌐 Deployment Options
+## Deployment Options
 
 To share your project online:
 
@@ -140,16 +140,16 @@ To share your project online:
 python app.py --share  # Creates public link
 ```
 
-## 📚 Documentation for GitHub
+## Documentation for GitHub
 
 When pushing to GitHub, include:
 
-1. ✅ **README.md** - Already done
-2. ✅ **.gitignore** - Already done
-3. ✅ **requirements.txt** - Already done
-4. ✅ **LICENSE** - Add MIT license
-5. ✅ **Demo video** - Record a 2-min demo
-6. ✅ **Screenshots** - Add to README
+1.  **README.md** - Already done
+2.  **.gitignore** - Already done
+3.  **requirements.txt** - Already done
+4.  **LICENSE** - Add MIT license
+5.  **Demo video** - Record a 2-min demo
+6.  **Screenshots** - Add to README
 
 ### Recommended GitHub Repo Structure:
 ```
@@ -168,17 +168,17 @@ basketball-shot-analyzer/
     └── screenshot2.png
 ```
 
-## 🏆 Success Metrics
+## Success Metrics
 
 Track these for portfolio impact:
 
-- ✅ **Code Quality**: Clean, documented, tested
-- ✅ **User Experience**: Intuitive, responsive, helpful
-- ✅ **Documentation**: Complete guides and README
-- ✅ **Demo**: Working video demonstration
-- ✅ **GitHub**: Professional repo presentation
+-  **Code Quality**: Clean, documented, tested
+-  **User Experience**: Intuitive, responsive, helpful
+-  **Documentation**: Complete guides and README
+-  **Demo**: Working video demonstration
+-  **GitHub**: Professional repo presentation
 
-## ⏱️ Time Investment
+## Time Investment
 
 **Already completed:** ~12-15 hours equivalent
 - Setup and architecture: 2 hours
@@ -193,7 +193,7 @@ Track these for portfolio impact:
 - Deploy to Hugging Face: 1-2 hours
 - Final testing: 1 hour
 
-## 🎯 Immediate Action Items
+## Immediate Action Items
 
 1. **Test it!** Run the app and try with sample videos
 2. **Record a demo** of yourself using it
@@ -204,7 +204,7 @@ Track these for portfolio impact:
 
 ---
 
-## 🤝 Need Help?
+## Need Help?
 
 If you run into issues:
 1. Check `test_installation.py` output
