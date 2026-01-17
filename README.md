@@ -1,4 +1,4 @@
-# 🏀 Basketball Shot Analyzer
+# Basketball Shot Analyzer
 
 An AI-powered basketball shooting form analyzer that uses computer vision to provide real-time feedback on your shooting technique.
 
@@ -65,7 +65,7 @@ The application will launch in your web browser at `http://localhost:7860`
    - Read the detailed analysis report
    - Follow the specific recommendations
 
-## 🎓 Understanding the Analysis
+## Understanding the Analysis
 
 ### Release Angle
 
